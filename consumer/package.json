@@ -1,0 +1,12 @@
+{
+  "name": "order-consumer",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "@kafkajs/confluent-schema-registry": "^2.1.0"
+  },
+  "scripts": {
+    "start": "node consumer.js"
+  }
+}

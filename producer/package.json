@@ -1,0 +1,13 @@
+{
+  "name": "order-producer",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "@kafkajs/confluent-schema-registry": "^2.1.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node producer.js"
+  }
+}
